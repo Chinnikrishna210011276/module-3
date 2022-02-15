@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+    int k[50]; // initialising an array
+    int i,j; 
+    printf("Enter the size of elements you want to insert : ");
+    scanf("%d",&i);
+    // loop for inserting in runtime
+    printf("\nEnter elements : ");
+    for (j=0;j<i;j++)
+    {  
+        // storing of array elements
+        scanf("%d",&k[j]);
+    }
+    // now to see the array
+    printf("\n\nArray : ");
+    for (j=0;j<i;j++)
+    {  
+        // for displaying array elements
+        printf("%d ",k[j]);
+    }
+}
